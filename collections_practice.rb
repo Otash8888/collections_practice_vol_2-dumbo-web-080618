@@ -93,7 +93,9 @@ def find_cool(cool)
 end
 
 def organize_schools(schools)
-  new_arrN = []
+  new_arr_ny  = []
+  new_arr_sf  = []
+  new_arr_ch = []
   new_hash = {}
   schools.each do |key1,value1|
     value1.each do |key2,value2|
