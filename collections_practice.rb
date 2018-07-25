@@ -100,8 +100,8 @@ def organize_schools(schools)
   schools.each do |key1,value1|
     value1.each do |key2,value2|
       if value2 == "NYC"
-      new_hash = {value2 => new_arr_ny.push(key1)}
-      new_arr.push(new_hash)
+      new_arr_ny.push(key1)
+    
      
        elsif value2 == "SF"
       new_hash = {value2 => key1}
