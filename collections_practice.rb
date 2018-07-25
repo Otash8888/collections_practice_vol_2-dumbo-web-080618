@@ -113,4 +113,6 @@ def organize_schools(schools)
     end
   end
   new_arr
+  
+  
 end
